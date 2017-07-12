@@ -156,7 +156,7 @@ The ideal number of epochs was 3 as evidenced by both training and validation er
 Miscellaneous:
 I used video_ocv.py to combine images into video since video.py was giving me issues.
 video_ocv.py is attached.
-Drive.py --didnt do much preprocessing in model.py hence didnt modify drive.py very much.
+Drive.py --modified code to convert images from RGB to BGR to make them consistent with model.py
 
 Link for video.mp4
 https://youtu.be/y1KRndmXX18
