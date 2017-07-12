@@ -159,3 +159,9 @@ I used this training data for training the model. The validation set helped dete
 I used generator to load the actual images in batches. I augemented data in the generator itself. I flipped images to enhance data.
 
 The ideal number of epochs was 3 as evidenced by both training and validation errors simultaneously declining. I used an adam optimizer so that manually training the learning rate wasn't necessary.
+
+Miscellaneous:
+I used video_ocv.py to combine images into video since video.py was giving me issues.
+video_ocv.py is attached.
+Drive.py --didnt do much preprocessing in model.py hence didnt modify drive.py very much.
+
