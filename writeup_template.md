@@ -81,8 +81,6 @@ For details about how I created the training data, see the next section.
 
 ####1. Solution Design Approach
 
-The overall strategy for deriving a model architecture was to ...
-
 My first step was to use a try LENET that was taught in the course with the sample data provided. Car was driving well in autonomous mode. I then collected my own data from simulation and tried with LENET. 
 
 The car was driving off the edge. So i tried NVIDIA and later commai. Both trained well but at some turns car was driving off the edges.
@@ -125,29 +123,15 @@ Layer 10: Fully Connected with 10 outputs
 Output Layer : Fully Connected with 1 output value for the steering angle
 
 
-
-
-
-![alt text][image1]
-
 ####3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded laps (forward and opposite directions) on track one using center lane driving. 
-![alt text][image2]
+
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to steer back to center
 
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-
 
 To augment the data sat, I also flipped images and angles
-
-![alt text][image6]
-![alt text][image7]
-
-Etc ....
 
 After the collection process, I had 23,938 number of data points. I then converted them into images and angles for left, right and center cameras, while filtering out data points with speed less then 0.1. I ended up with around 70k images. After redistributing the number of samples to represent most anlges,  ended up with 21115 images.
 
