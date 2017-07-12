@@ -138,6 +138,12 @@ see below...both the original three camera images and their respective augmented
 
 After the collection process, I had 23,938 number of data points. I then converted them into images and angles for left, right and center cameras, while filtering out data points with speed less then 0.1. I ended up with around 70k images. After redistributing the number of samples to represent most anlges,  ended up with 21115 images.
 
+No of Samples vs Angles : Original distribution (70K images)
+![distribution before](https://user-images.githubusercontent.com/15799394/28142084-f824fe6c-677c-11e7-8bac-a40518e7ca06.png)
+
+No of Samples vs Anlges : Redistributed (21115 images)
+![distribution after](https://user-images.githubusercontent.com/15799394/28142088-fc2c307a-677c-11e7-9918-7ab95280726c.png)
+
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
