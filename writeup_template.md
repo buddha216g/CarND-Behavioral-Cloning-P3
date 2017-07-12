@@ -150,4 +150,4 @@ video_ocv.py is attached.
 Drive.py --didnt do much preprocessing in model.py hence didnt modify drive.py very much.
 
 Link for video.mp4
-https://youtu.be/hejZOFJE_Ek
+https://youtu.be/y1KRndmXX18
