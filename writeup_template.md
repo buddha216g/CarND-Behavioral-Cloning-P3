@@ -149,3 +149,5 @@ I used video_ocv.py to combine images into video since video.py was giving me is
 video_ocv.py is attached.
 Drive.py --didnt do much preprocessing in model.py hence didnt modify drive.py very much.
 
+Link for video.mp4
+https://youtu.be/hejZOFJE_Ek
